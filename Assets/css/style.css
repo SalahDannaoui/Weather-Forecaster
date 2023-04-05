@@ -1,0 +1,58 @@
+header {
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: fit-content;
+    padding: 1.5%;
+}
+
+
+.forecast {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#futureforecast {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#todayweather,
+.daycard {
+    padding: 1%;
+    margin: 1%;
+    height: fit-content;
+    border-style: groove;
+}
+
+.daycard {
+    background-color: aquamarine;
+    width: 15%;
+}
+
+
+.searchbar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2%;
+    width: fit-content;
+    padding: 2%;
+    margin: 1%;
+}
+
+.historyLi {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}

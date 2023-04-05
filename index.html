@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>5 Day Weather Forecaster</title>
+  <link rel="stylesheet" href="./Assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>5 Day Weather Forecaster</h1>
+  </header>
+
+  <main>
+    <div class="searchbar">
+      <h2>Seach for a City:</h2>
+      <input type="text" id="search" placeholder="City Name">
+      <button id="search-btn">Search</button>
+      <button id="clear-btn">Clear History</button>
+      <div id="history">
+        <button class = "historyLi">Any word</button>
+      </div>
+    </div>
+
+    <div class="forecast">
+      <div id="todayweather">
+        <h2>Sydney (01/04/2023)</h2>
+          <img>icon</img>
+        <p>Temp: </p>
+        <p>Wind: </p>
+        <p>Humidity: </p>
+      </div>
+
+      <div id="futureforecast">
+        <div class="daycard">
+          <h2>01/04/2023</h2>
+          <img>icon</img>
+          <p>Temp: </p>
+          <p>Wind: </p>
+          <p>Humidity: </p>
+        </div>
+        <div class="daycard">
+          <h2>01/04/2023</h2>
+          <img>icon</img>
+          <p>Temp: </p>
+          <p>Wind: </p>
+          <p>Humidity: </p>
+        </div>
+        <div class="daycard">
+          <h2>01/04/2023</h2>
+          <img>icon</img>
+          <p>Temp: </p>
+          <p>Wind: </p>
+          <p>Humidity: </p>
+        </div>
+        <div class="daycard">
+          <h2>01/04/2023</h2>
+          <img>icon</img>
+          <p>Temp: </p>
+          <p>Wind: </p>
+          <p>Humidity: </p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="./Assets/js/script.js"></script>
+</body>
+
+</html>
