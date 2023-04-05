@@ -48,7 +48,7 @@ $('#clear-btn').on("click", function () {
 homepage();
 
 function homepage() {
-    var homeURL = "http://api.openweathermap.org/geo/1.0/direct?q=Sydney&limit=1&appid=26b03cf4c3e77894b42f94cdd37297b5";
+    var homeURL = "https://api.openweathermap.org/geo/1.0/direct?q=Sydney&limit=1&appid=26b03cf4c3e77894b42f94cdd37297b5";
     fetchcoord(homeURL);
 }
 
@@ -59,7 +59,7 @@ function historyURL() {
         return;
     };
     console.log(city);
-    var coordURL = "http://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=26b03cf4c3e77894b42f94cdd37297b5";
+    var coordURL = "https://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=26b03cf4c3e77894b42f94cdd37297b5";
     console.log(coordURL);
     fetchcoord(coordURL);
 }
@@ -71,7 +71,7 @@ function createcoordURL() {
         return;
     };
     console.log(city);
-    var coordURL = "http://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=26b03cf4c3e77894b42f94cdd37297b5";
+    var coordURL = "https://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=26b03cf4c3e77894b42f94cdd37297b5";
     console.log(coordURL);
     fetchcoord(coordURL);
 }
@@ -122,7 +122,7 @@ function fetchForecast(queryURL) {
             $("#todayweather").append(citynameEl);
 
             let iconEl = $("<img>");
-            iconEl.attr("src", "http://openweathermap.org/img/w/" + iconnow + ".png");
+            iconEl.attr("src", "https://openweathermap.org/img/w/" + iconnow + ".png");
             $("#todayweather").append(iconEl);
 
             let tempEl = $("<p>");
@@ -161,7 +161,7 @@ function fetchForecast(queryURL) {
                 divcard.append(citynameEl);
 
                 let iconEl = $("<img>");
-                iconEl.attr("src", "http://openweathermap.org/img/w/" + icon + ".png");
+                iconEl.attr("src", "https://openweathermap.org/img/w/" + icon + ".png");
                 divcard.append(iconEl);
 
                 let tempEl = $("<p>");
